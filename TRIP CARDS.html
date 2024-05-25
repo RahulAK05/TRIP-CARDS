@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: aqua;
+        background-image: radial-gradient(black 1px, transparent 0);
+        background-size: 40px 40px;
+        background-position: -19px -19px;
+      }
+      .one,
+      .two,
+      .three,
+      .four {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        width: 300px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .container {
+        animation: drop;
+        animation-duration: 2s;
+      }
+      @keyframes drop {
+        0% {
+          margin-top: -600px;
+        }
+        100% {
+          margin-top: 20px;
+        }
+      }
+      .five {
+        text-align: center;
+        animation: zoom;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes zoom {
+        from {
+          font-size: 0px;
+        }
+        to {
+          font-size: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="one">
+        <img src="GUNA CAVE.jpg" height="300px" width="300px" />
+        <h3>GUNA CAVE</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ea eos
+          quidem dolor commodi error officiis vitae, libero facere corrupti
+          dolorem nisi incidunt quos consectetur voluptates ipsam cupiditate
+          pariatur deleniti.
+        </p>
+        <br />
+        <button>Checkout</button>
+      </div>
+      <div class="two">
+        <img src="MUNNAR.jpg" height="300px" width="300px" />
+        <h3>MUNNAR</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+          iusto consequuntur temporibus veniam, at maxime porro sequi harum non
+          dolorum! Ipsum, doloribus. Ratione, nulla? Ipsa incidunt aspernatur
+          facilis? Labore, quos?
+        </p>
+        <br />
+        <button>Checkout</button>
+      </div>
+      <div class="three">
+        <img src="Yercaud.jpg" height="300px" width="300px" />
+        <h3>YERCAUD</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+          iusto consequuntur temporibus veniam, at maxime porro sequi harum non
+          dolorum! Ipsum, doloribus. Ratione, nulla? Ipsa incidunt aspernatur
+          facilis? Labore, quos?
+        </p>
+        <br />
+        <button>Checkout</button>
+      </div>
+      <div class="four">
+        <img src="VARKALA.jpg" height="300px" width="300px" />
+        <h3>VARKALA</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+          iusto consequuntur temporibus veniam, at maxime porro sequi harum non
+          dolorum! Ipsum, doloribus. Ratione, nulla? Ipsa incidunt aspernatur
+          facilis? Labore, quos?
+        </p>
+        <br />
+        <button>Checkout</button>
+      </div>
+    </div>
+    <div class="five">
+      <h2 style="font-family: poppins">
+        Travel Around with <a href="">Ratata.com</a>
+      </h2>
+      <h2 style="font-family: poppins">Check out our Trip cards</h2>
+    </div>
+  </body>
+</html>
